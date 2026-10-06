@@ -167,7 +167,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs/Zensical documentation
-/site
+# /site  (removido: a pasta site/ é a landing page)
 
 # mypy
 .mypy_cache/
