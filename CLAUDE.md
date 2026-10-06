@@ -8,7 +8,7 @@ Ponto de entrada do Claude neste repositório. Antes de mudar o site, leia tamb�
 - Estrutura: `site/` (landing page) e `sistema/` (sistema Python, ainda não iniciado). Ver `README.md`.
 - Hospedagem pública na Railway: projeto `tranquil-insight`, serviço `asnutri`, Root Directory `/site`, Railpack + Caddy, `RAILPACK_SPA_OUTPUT_DIR=dist/client`, região US East. Push em `main` publica o site.
 - O antigo site privado em chatgpt.site (e os arquivos `worker/`, `.openai/`, `test:sites`) não fazem parte deste repositório.
-- Domínio próprio planejado: `asnutri.com.br` (ainda não configurado). Quando houver, trocar `og:image` e incluir `og:url` com endereço absoluto em `site/index.html`.
+- Domínio: `www.asnutri.com.br` (Registro.br) ligado ao serviço na Railway por CNAME. `og:url`, `og:image` e `canonical` em `site/index.html` usam esse endereço.
 
 ## Atualização de 2026-10-05
 
