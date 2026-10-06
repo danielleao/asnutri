@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Node / site (AS Nutri) ---
+node_modules/
+site/dist/
+site/publicado/
+site/teste-local/
